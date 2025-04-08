@@ -9,8 +9,8 @@
 <body>
 
     <?php
-    // functie: Programma CRUD fietsen
-    // auteur: Vul hier je naam in   
+    // functie: Programma CRUD reizen 
+    // auteur: Thierry  
 
     // Initialisatie
     include 'functions.php';

@@ -1,8 +1,8 @@
 <?php
-    // functie: formulier en database insert fiets
-    // auteur: Vul hier je naam in
+    // functie: formulier en database insert klant
+    // auteur: thierry
 
-    echo "<h1>Insert Fiets</h1>";
+    echo "<h1>Insert klanten</h1>";
 
     require_once('functions.php');
 	 
@@ -11,9 +11,9 @@
 
         // test of insert gelukt is
         if(insertRecord($_POST) == true){
-            echo "<script>alert('Fiets is toegevoegd')</script>";
+            echo "<script>alert('klant is toegevoegd')</script>";
         } else {
-            echo '<script>alert("Fiets is NIET toegevoegd")</script>';
+            echo '<script>alert("klanrt is verwijderd is NIET toegevoegd")</script>';
         }
     }
 ?>
